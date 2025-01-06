@@ -103,13 +103,13 @@ Software packages downloaded, installed, and configured by the balena-ads-b scri
   * [Alternative B: Setup a new Wingbits receiver](#alternative-b-setup-a-new-wingbits-receiver)
 - [Part 10 – Configure UAT (Optional and US only)](#part-10--configure-uat-optional-and-us-only)
 - [Part 11 - Configure tar1090 and graphs1090 (Optional)](#part-11--configure-tar1090-and-graphs1090-optional)
-- [Part 11 – Add a digital display (Optional)](#part-12--add-a-digital-display-optional)
-- [Part 12 – Exploring flight traffic locally on your device](#part-13--exploring-flight-traffic-locally-on-your-device)
-- [Part 13 – Advanced configuration](#part-14--advanced-configuration)
+- [Part 12 – Add a digital display (Optional)](#part-12--add-a-digital-display-optional)
+- [Part 13 – Exploring flight traffic locally on your device](#part-13--exploring-flight-traffic-locally-on-your-device)
+- [Part 14 – Advanced configuration](#part-14--advanced-configuration)
   * [Disabling specific services](#disabling-specific-services)
   * [Adaptive gain configuration](#adaptive-gain-configuration)
   * [Setting dump1090 antenna gain](#setting-dump1090-antenna-gain)
- - [Part 14 – Updating to the latest version](#part-15--updating-to-the-latest-version)
+ - [Part 15 – Updating to the latest version](#part-15--updating-to-the-latest-version)
 
 # Part 1 – Build the receiver
 
