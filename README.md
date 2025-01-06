@@ -386,7 +386,7 @@ In the United States, aircraft can use either the ADS-B standard, which transmit
 15. Add a new variable named `UAT_ENABLED` and assign it the value `true`.
 16. Power on the device. You should now be feeding ADS-B and UAT data simultaneously to the services that support it (FlightAware, RadarBox and ADSB-Exchange).
 
-# Part 11 - Configure tar1090 and graphs1090 (Optional)
+# Part 11 – Configure tar1090 and graphs1090 (Optional)
 h
 
 # Part 12 – Add a digital display (Optional)
