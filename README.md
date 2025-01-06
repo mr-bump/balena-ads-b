@@ -387,7 +387,10 @@ In the United States, aircraft can use either the ADS-B standard, which transmit
 16. Power on the device. You should now be feeding ADS-B and UAT data simultaneously to the services that support it (FlightAware, RadarBox and ADSB-Exchange).
 
 # Part 11 – Configure tar1090 and graphs1090 (Optional)
-h
+[Tar1090](https://github.com/wiedehopf/tar1090) and [graphs1090](https://github.com/wiedehopf/graphs1090) are visualisation tools that can help you to see the output and determine the performance of your ADS-B plane tracking setup. These tools are pre-configured to run out-of-the-box as long as the `LAT` and `LON` parameters are set as described in [part 2 above](#part-2--setup-balena-and-configure-the-device). However, there is some significant customisation possible as this service uses the [docker-tar1090 container](https://github.com/sdr-enthusiasts/docker-tar1090) from [SDR Enthusiasts](https://github.com/sdr-enthusiasts).
+
+The most useful configuration options are the following:
+- h
 
 # Part 12 – Add a digital display (Optional)
 balena also produces a project that can be easily configured to display a webpage in kiosk mode on a digital display called balenaDash. By dropping that project into this one, we can automatically display a feeder page directly from the Pi. We can then set a `LAUNCH_URL` device variable configured to connect to `http://{{YOURIP or YOURSERVICENAME}}:YOURSERVICEPORT` (where the service/port is one of the frontends above, like `http://planefinder:30053`) and that will automatically be displayed on the attached display. The balenaDash service can be configured locally by accessing the webserver on port 8081.
@@ -412,10 +415,10 @@ Less visual than the two other options, Flightradar24's status page gives you hi
 If you live in the US and have configuered UAT feeding, you can explore the data using this view. When you are in your local network, head to `YOURIP:8978` to check it out. When remote, open balena's *Public Device URL* and add `/skyaware978/` to the tail end of the URL, e.g. `https://6g31f15653bwt4y251b18c1daf4qw164.balena-devices.com/skyaware978/`. However, keep in mind that UAT traffic is scarce. It might take several days before you see any traffic, depending on where in the US you are situated.
 
 **Tar1090 Radar View**
-H
+[Tar1090](https://github.com/wiedehopf/tar1090)
 
 **Graphs1090 Stats Graphs**
-H
+[Graphs1090](https://github.com/wiedehopf/graphs1090)
 
 # Part 14 – Advanced configuration
 ## Disabling specific services
