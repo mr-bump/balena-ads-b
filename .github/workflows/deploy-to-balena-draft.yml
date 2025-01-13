@@ -21,5 +21,5 @@ jobs:
         uses: balena-io/deploy-to-balena-action@master
         with:
           balena_token: ${{ secrets.BALENA_DRAFT_API_KEY }}
-          fleet: ${{ env.BALENA_DRAFT_FLEET }}
+          fleet: github_ci_runner_adsb/balena-ads-b
           multi_dockerignore: true
