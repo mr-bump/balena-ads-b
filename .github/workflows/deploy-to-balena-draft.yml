@@ -22,3 +22,7 @@ jobs:
           balena_token: ${{ secrets.BALENA_DRAFT_API_KEY }}
           fleet: ${{ vars.BALENA_DRAFT_FLEET }}
           multi_dockerignore: true
+
+      - name: Deploy to Balena
+        run: |
+          echo "${{ secrets.BALENA_DRAFT_API_KEY }}
