@@ -25,4 +25,4 @@ jobs:
 
       - name: Deploy to Balena
         run: |
-          echo "${{ secrets.BALENA_DRAFT_API_KEY }}
+          echo "${{ secrets.BALENA_DRAFT_API_KEY }}"
